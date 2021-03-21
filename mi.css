@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Gilroy;
+	font-size: 18px;
+
+}
+img {
+	width: 100%;	
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+header {
+	padding: 40px;
+	background-color: #FAFAFA;
+
+}
+.wrap-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+    width: 1330px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.logo {
+	width: 40px;
+}
+header nav {
+	width: 330px;
+}
+.gift-finder {
+	color: #F7941E;
+	height: 40px;
+	line-height: 40px;
+	width: 140px;
+	border: 1px solid #F7941E;
+box-sizing: border-box;
+border-radius: 5px;
+text-transform: uppercase;
+text-align: center;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.sec-one-info, .sec-one-work {
+	display: flex;
+	align-items: center;
+	width: 1440px;
+    max-width: 100%;
+     margin: auto;
+    flex-wrap: wrap;
+}
+.sec-one {
+	background-color: #F1F1F2;
+}
+.info-desc, .info-img {
+	width: 50%;
+}
+.info-img img {
+	display: block;
+}
+.info-desc h1 {
+	font-size: 55px;
+}
+.info-desc p {
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.info-desc .content {
+	width: 430px;
+	max-width: 100%;
+	margin: auto;
+}
+.Find-gift-now {
+background: #F7941E;
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+color: #FFF;
+width: 200px;
+height: 60px;
+line-height: 60px;
+}
+.Learn-More {
+color: #F7941E;
+border: 1px solid #F7941E;
+border-radius: 5px;
+text-align: center;
+text-transform: uppercase;
+width: 200px;
+height: 60px;
+line-height: 60px;
+}
+.wrap {
+	margin: auto;
+	width: 1140px;
+	max-width: 100%;
+	padding: 90px 0;
+	flex-wrap: wrap;
+}
