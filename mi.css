@@ -109,3 +109,34 @@ line-height: 60px;
 	padding: 90px 0;
 	flex-wrap: wrap;
 }
+.info-desc h3,
+.sec-two h3 {
+	font-size: 32px;
+	font-weight: 400;
+}
+.sec-two h3, .sec-two p, .blog .h3-wrap, .blog .p-wrap {
+	text-align: center;
+}
+ .cards-Occasions {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+	flex-wrap: wrap;
+}
+.cards-item {
+	width: 270px;
+	background-color: #FAFAFA;
+	transition: .3s;
+}
+.cards-item :hover {
+	background-color: #fff;
+	box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, .05);
+
+}
+.cards-desc {
+	padding: 24px;
+}
+.See-More {
+	font-size: 14px;
+	margin-top: 74px;
+}
