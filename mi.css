@@ -230,3 +230,78 @@ transition: .3s;
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
+footer {
+	background-color: #FAFAFA;
+	padding: 115px 0 35px;
+}
+footer nav {
+	width: 600px;
+	max-width: 100%;
+	margin: auto;
+}
+.wrap-footer {
+	width: 1000px;
+	max-width: 100%;
+	margin: auto;
+
+}
+.nav-footer {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;	
+	flex-wrap: wrap;
+}
+.nav-footer li {
+	font-size: 14px;
+	padding: 0 25px;
+	font-weight: 700;
+}
+.logo-orange {
+	padding: 0 100px !important;
+}
+.logo-orange img {
+	width: auto;
+}
+
+.line {
+	width: 1000px;
+	max-width: 100%;
+	margin:  55px auto;
+	border: 1px solid #000;
+}
+footer .social {
+	width: 300px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+footer .copyright {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 70px;
+}
+@media only screen and (max-width: 375px) {
+	.info-desc, .info-img {
+	width: 100%;
+	}	
+	.content, .wrap, .blog-subcards {
+		text-align: center;
+	}
+	.line {
+		width: 370px;
+	}
+	.cards-item {
+		width: 95%;
+		margin: auto;
+	}
+	.blog-card-img {
+		width: 100%;
+	}
+	.info-desc, .Learn-More, .Find-gift-now, .blog-subcards {
+		margin: auto;
+	}
+	.blog-subcard {
+		padding: 20px;
+	}
+}
