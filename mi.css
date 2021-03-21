@@ -140,3 +140,24 @@ line-height: 60px;
 	font-size: 14px;
 	margin-top: 74px;
 }
+.cta {
+	background-color: #F7941E;
+}
+.cta .wrap {
+padding: 80px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.cta-info h3, .cta-info p {
+	font-size: 32px;
+	margin: 0;
+}
+.cta-action {
+	width: 416px;
+	max-width: 100%;
+}
+.cta-buttons {
+	display: flex;
+	justify-content: space-between;
+}
